@@ -22,7 +22,7 @@ public class FibonacciFactory {
         values = new ArrayList<>();
 
         BigInteger n1 = BigInteger.ZERO, n2 = BigInteger.ONE;
-        for (int i = 0; i <= numberOfTerms; i++) {
+        for (int i = 0; i < numberOfTerms; i++) {
             values.add(new FibonacciValue.Builder()
                     .withValue(n1)
                     .build());
