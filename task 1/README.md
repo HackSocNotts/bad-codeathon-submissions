@@ -11,3 +11,15 @@ https://en.wikipedia.org/wiki/Fibonacci_number
 `fib(6): 5`
 
 `fib(13): 144`
+
+## How to run
+
+`java -jar Submission.jar <nth term>`
+
+For example:
+
+`java -jar Submission.jar 10`
+
+should output:
+
+`34`
