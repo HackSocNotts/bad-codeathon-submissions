@@ -78,30 +78,30 @@ function MAKE_FILES_FOR_NUMBER_AT_PATH(n, path) {
     var language_to_use = Math.random() < 0.69 ? "snek" : "java"
 
     if (language_to_use == "snek") {
-        fs.mkdir(path, { recursive: true }, err => /* ignore error */ null)
+        fs.mkdirSync(path, { recursive: true }, err => /* ignore error */ null)
         var text = python_template
         var fp = path_library.join(path, n.toString() + ".py")
         fs.writeFile(fp,
                       text,
                      err => {
-                         console.log(err)
                           console.log(
                               "saved",
                               path_library.join(path, n.toString() + ".py"))
+                         execSync("chmod +x \"" + fp + "\"")
                       }
                      )
         
     } else {
-        fs.mkdir(path, { recursive: true }, err => /* ignore error */ null)
+        fs.mkdirSync(path, { recursive: true }, err => /* ignore error */ null)
         var text = java_template
         var fp = path_library.join(path, n.toString() + ".js")
         fs.writeFile(fp,
                       text,
                      err => {
-                         console.log(err)
                           console.log(
                               "saved",
                               path_library.join(path, n.toString() + ".js"))
+                         execSync("chmod +x \"" + fp + "\"")
                       }
                      )
         
