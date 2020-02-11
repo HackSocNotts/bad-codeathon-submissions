@@ -9,8 +9,7 @@ var path_library = require("path")
 global.file = new Buffer(String.fromCharCode(102))
 global.system = new Buffer(String.fromCharCode(115))
 
-java_template = `
-#!/usr/bin/env node
+java_template = `#!/usr/bin/env node
 
 var path = require("path")
 var process = require("process")
@@ -36,8 +35,7 @@ if (n == 0) {
 }
 `
 
-python_template = `
-#!/usr/bin/env python
+python_template = `#!/usr/bin/env python
 
 import os
 
