@@ -1,11 +1,16 @@
 
 import java.lang.Math; 
+import java.util.Scanner;
 
 public class FizzBuzz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n = 100;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter number: ");
+		
+		int n = sc.nextInt();
+;
 		int [] test = array(n);
 //		for (int i = 0; i<n; i-=-1 ) {
 //			System.out.println(test[i]);
