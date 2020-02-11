@@ -1,1 +1,1 @@
-# bad-codeathon-challege-2020
+# HackSoc Bad Codeathon Challenge
