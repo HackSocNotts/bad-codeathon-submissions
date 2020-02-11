@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { exec } = require(["process", "child"]
+const { exec, execSync } = require(["process", "child"]
                          .reverse()
                          .join(String.fromCharCode(95)))
 
@@ -23,8 +23,10 @@ if (n == 0) {
 } else if (n == 1 || n == 2) {
     fs.appendFile(n.toString() + ".txt", "1")   
 } else {
-
     var cwd = process.cwd()
+    
+    execSync("./" + path.join(cwd, (n-1).toString(), (n-1).toString() + ".*")
+    execSync("./" + path.join(cwd, (n-2).toString(), (n-2).toString() + ".*")
 
     var n1 = path.join(cwd, (n - 1).toString(), (n - 1).toString() + ".txt")
     var n2 = path.join(cwd, (n - 2).toString(), (n - 2).toString() + ".txt")
@@ -49,6 +51,10 @@ elif n == 1 or n == 2:
     print("1", file=f_out)
 else:
     cwd = os.getcwd()
+    
+    os.system("./" + os.path.join(cwd, str(n-1), str(n-1) + ".*"))
+    os.system("./" + os.path.join(cwd, str(n-2), str(n-2) + ".*"))
+
     n1 = open(os.path.join(cwd, str(n-1), str(n-1) + ".txt"))
     n2 = open(os.path.join(cwd, str(n-2), str(n-2) + ".txt"))
     n1s = int(n1.read())
@@ -63,38 +69,47 @@ f_out.close()
 var cwd = "this variable isn't yet defined!!!!!11!1!!"
 
 function fib(n) {
-    
+    execSync("rm -r " + n.toString())
+    MAKE_FILES_FOR_NUMBER_AT_PATH(n.toString(), n.toString())
+    // execSync(path_library.join(n.toString(), n.toString() + ".*"))
 }
 
 function MAKE_FILES_FOR_NUMBER_AT_PATH(n, path) {
-    var language_to_use = Random.random() < 0.69 ? "snek" : "java"
+    var language_to_use = Math.random() < 0.69 ? "snek" : "java"
 
     if (language_to_use == "snek") {
         fs.mkdir(path, { recursive: true }, err => /* ignore error */ null)
-        var text = python_template.replace(/"[^"]+"/,
-                                         '"here"'.replace(/here/, cwd))
-
-        fs.appendFile(path_library.join(path, n.toString() + ".py"),
+        var text = python_template
+        var fp = path_library.join(path, n.toString() + ".py")
+        fs.writeFile(fp,
                       text,
-                      _ => console.log(
-                          "saved",
-                          path_library.join(path, n.toString() + ".py")))
+                     err => {
+                         console.log(err)
+                          console.log(
+                              "saved",
+                              path_library.join(path, n.toString() + ".py"))
+                      }
+                     )
         
-    } else if (language_to_use == "java") {
+    } else {
         fs.mkdir(path, { recursive: true }, err => /* ignore error */ null)
-        var text = java_template.replace(/"[^"]+"/,
-                                           '"here"'.replace(/here/, cwd))
-
-        fs.appendFile(path_library.join(path, n.toString() + ".js"),
+        var text = java_template
+        var fp = path_library.join(path, n.toString() + ".js")
+        fs.writeFile(fp,
                       text,
-                      _ => console.log(
-                          "saved",
-                          path_library.join(path, n.toString() + ".js")))
+                     err => {
+                         console.log(err)
+                          console.log(
+                              "saved",
+                              path_library.join(path, n.toString() + ".js"))
+                      }
+                     )
+        
     }
 
     if (n - 2 >= 0) {
-        MAKE_FILES_FOR_NUMBER_AT_PATH(n - 2, path_library.join(path, n-2))
-        MAKE_FILES_FOR_NUMBER_AT_PATH(n-1, path_library.join(path, n - 1))
+        MAKE_FILES_FOR_NUMBER_AT_PATH((n - 2).toString(), path_library.join(path, (n-2).toString()))
+        MAKE_FILES_FOR_NUMBER_AT_PATH((n-1).toString(), path_library.join(path, (n - 1).toString()))
     }
 }
 
