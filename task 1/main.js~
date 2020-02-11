@@ -1,0 +1,15 @@
+var f = new Buffer("f")
+var s = new Buffer("s")
+var fs = require(
+    Buffer.concat(
+        Object.keys(this)
+            .filter(a => a == "f" || a == "s")
+            .map(a => this[a])))
+
+function fib(n) {
+    
+}
+
+function make_file(n) {
+    
+}
