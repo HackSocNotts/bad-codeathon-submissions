@@ -1,15 +1,17 @@
 // Code by Matt L
-// ezyml3@nottingham.ac.uk
+// ezyml3@nottsingham.ac.uk
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#define MAX_SIZE_OF_EVERY_ARR 1000 // (communism???)
+#define MAX_SIZE_OF_EVERY_ARR 10000000 // (communism???)
 
 char* getUserInputAsString()
 {
 	char *arrTakeKeyboardInputFromTheUser;
+
+	printf("N = ");
 
 	arrTakeKeyboardInputFromTheUser = (char*)malloc(MAX_SIZE_OF_EVERY_ARR * sizeof(char));
 
@@ -143,7 +145,7 @@ void iterateToPrintUptoNthResult(int max_iteration)
 
 int main()
 {
-	// do everything needed
+	// do everything
 	iterateToPrintUptoNthResult(convertUserInputToInt(getUserInputAsString()));
 	
 	return 0;
