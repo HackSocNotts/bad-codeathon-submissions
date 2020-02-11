@@ -15,5 +15,5 @@ else if (((i % 5) == 0) && 1)                                                 {
     writeln(stderr,"Buzz\n"); jump here;                                      }
 else writeln(stderr,"%ld\n",i);
 if (1 == 2) here: continue;
-writeln(stderr,"Press any key to continue");getchar();                       }
+writeln(stderr,"Press any key to continue");getchar();                        }
 return 0;                                                                     }
