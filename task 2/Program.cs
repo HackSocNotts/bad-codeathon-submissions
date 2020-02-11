@@ -6,7 +6,9 @@ namespace task_2
     {
         static void Main(string[] args)
         {
-			FizzBuzz(1000);
+			Console.WriteLine("Fizzbuzz yuh Enter a number");
+			int n = int.Parse(Console.ReadLine());
+			FizzBuzz(n);
         }
 
 		static void FizzBuzz(int max) {
