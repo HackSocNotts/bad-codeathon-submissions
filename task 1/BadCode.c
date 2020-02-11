@@ -15,15 +15,16 @@ int main(int argc, char **argv)
     int voom;
     int zoom;
     int toom;
+    int pain;
     mian = mian + 80;
     mian = (mian/9)/9;
 
     zoom = 0;
 
     AngryWomen = strtol(argv[1], &AngryMan1, 10);
+    pain = AngryWomen;
     AngryWomen++;
     Main = AngryWomen;
-
     voom = 0;
 
     while(Main)
@@ -33,6 +34,11 @@ int main(int argc, char **argv)
                         toom = AngryWomen;AngryWomen = zoom;zoom = toom;voom = AngryWomen;goto hopper;Gopper:goto gopper;hopper:
             if(zoom == 0){zoom = zoom + 1;AngryWomen = voom + zoom;}
     Main = Hackermusic_starts_playing(Main); 
+    }
+
+    if(pain == 0)
+    {
+        AngryWomen = 0;
     }
     
     if(AngryWomen > voom){voom = AngryWomen;}
