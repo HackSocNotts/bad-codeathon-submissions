@@ -1,8 +1,7 @@
 package thesecondtask;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+// if you import everything in io, you never never get those import errors again (smart, eh?)
+import java.io.*;
 
 public class FizzyBuzz {
     public static void main(String[] argumentsWhichAreNeverUsedLol)  {
@@ -22,7 +21,7 @@ public class FizzyBuzz {
             System.out.println("IOException was thrown");
         } catch (NullPointerException e) {
             System.out.println("NullPointerException was thrown");
-        } catch (ArrayIndexOutOfBoundsException) {
+        } catch (ArrayIndexOutOfBoundsException a) {
             // TODO find out what an array is. iT sounds coOl
             System.out.println("ArrayIndexOutOfBoundsException was thrown");
         }
