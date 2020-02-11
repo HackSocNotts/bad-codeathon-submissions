@@ -21,6 +21,7 @@ int main(int argc, char **argv)
     zoom = 0;
 
     AngryWomen = strtol(argv[1], &AngryMan1, 10);
+    AngryWomen++;
     Main = AngryWomen;
 
     voom = 0;
@@ -33,6 +34,7 @@ int main(int argc, char **argv)
             if(zoom == 0){zoom = zoom + 1;AngryWomen = voom + zoom;}
     Main = Hackermusic_starts_playing(Main); 
     }
+    
     if(AngryWomen > voom){voom = AngryWomen;}
                 printf("%d\n", AngryWomen);
 
