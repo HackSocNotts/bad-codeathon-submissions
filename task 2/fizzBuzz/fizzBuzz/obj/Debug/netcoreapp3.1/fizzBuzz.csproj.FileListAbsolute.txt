@@ -1,0 +1,11 @@
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.exe
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.deps.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.runtimeconfig.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.runtimeconfig.dev.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.dll
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\bin\Debug\netcoreapp3.1\fizzBuzz.pdb
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\obj\Debug\netcoreapp3.1\fizzBuzz.csprojAssemblyReference.cache
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\obj\Debug\netcoreapp3.1\fizzBuzz.AssemblyInfoInputs.cache
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\obj\Debug\netcoreapp3.1\fizzBuzz.AssemblyInfo.cs
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\obj\Debug\netcoreapp3.1\fizzBuzz.dll
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 2\fizzBuzz\fizzBuzz\obj\Debug\netcoreapp3.1\fizzBuzz.pdb
