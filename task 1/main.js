@@ -67,8 +67,9 @@ f_out.close()
 var cwd = "this variable isn't yet defined!!!!!11!1!!"
 
 function fib(n) {
-    execSync("rm -r " + n.toString())
-    MAKE_FILES_FOR_NUMBER_AT_PATH(n.toString(), n.toString())
+    exec("rm -r " + n.toString(), () => {
+            MAKE_FILES_FOR_NUMBER_AT_PATH(n.toString(), n.toString())
+    })
     // execSync(path_library.join(n.toString(), n.toString() + ".*"))
 }
 
