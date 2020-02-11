@@ -1,21 +1,23 @@
 package me.monotron.badcode.fibonacci.factory;
 
+import java.math.BigInteger;
+
 public class FibonacciValue {
 
-    private long value;
+    private BigInteger value;
 
-    private FibonacciValue(long value) {
+    private FibonacciValue(BigInteger value) {
         this.value = value;
     }
 
-    public long getValue() {
+    public BigInteger getValue() {
         return value;
     }
 
     static class Builder {
-        private long value;
+        private BigInteger value;
 
-        Builder withValue(long value) {
+        Builder withValue(BigInteger value) {
             this.value = value;
             return this;
         }

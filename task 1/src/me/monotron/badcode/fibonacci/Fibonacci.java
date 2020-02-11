@@ -24,6 +24,6 @@ public class Fibonacci {
 
         List<FibonacciValue> values = factory.getValues();
 
-        System.out.println(values.get(values.size() - 1).getValue());
+        System.out.println(values.get(values.size() - 1).getValue().toString());
     }
 }
