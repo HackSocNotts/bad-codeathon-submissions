@@ -58,7 +58,13 @@ int main()
 
     for (int l = 0; l < 100; l++) {
         if (check1(l) == result && check(l) == square) {
-            std::cout << "fizzbuzz\n";
+            std::cout << "fizzbuzz UwU \n";
+            for (int n = 0; n < 5 ^ 25; n++) {
+                                          std::cout << " UwU ";
+                                            }
+      for (int n = 0; n < 12; n++) {
+                                                                            std::cout << "\n";
+                                                 }
         }
         else {
                                             if (check1(l) == c) {

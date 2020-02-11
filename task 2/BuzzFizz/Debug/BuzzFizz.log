@@ -1,4 +1,1 @@
-﻿  BuzzFizz.cpp
-C:\Users\Jack\source\repos\BuzzFizz\BuzzFizz.cpp(22): warning C4715: 'check': not all control paths return a value
-C:\Users\Jack\source\repos\BuzzFizz\BuzzFizz.cpp(38): warning C4715: 'check1': not all control paths return a value
-  BuzzFizz.vcxproj -> C:\Users\Jack\source\repos\BuzzFizz\Debug\BuzzFizz.exe
+﻿  BuzzFizz.vcxproj -> C:\Users\Jack\source\repos\BuzzFizz\Debug\BuzzFizz.exe
