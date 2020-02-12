@@ -1,4 +1,5 @@
 #include <fstream>
+typedef long long int bigboy;
 extern "C" {
      int is_one(int n){
          if(n==1){
@@ -30,23 +31,25 @@ float something_or_other = std::stof(std::string(whats_a_ruddy_star_star[1]));
 }
 if(whats_a_ruddy_star_star[1] == "0")return 0;
 double f_1 =  fib_using_maffs(static_cast<int>(something_or_other));
+if(n____>2){
     essteedee::string s = "bash -c \""+std::string(whats_a_ruddy_star_star[0]) +" " +std::to_string(n____-1)+" > "+std::to_string(n____-1)+".txt\"";
 //    std::cout << s <<std::endl;
     system(s.c_str());
     std::ifstream t(std::to_string(n____-1)+".txt");
 std::string str((std::istreambuf_iterator<char>(t)),
                  std::istreambuf_iterator<char>());
-int a = std::stoi(str);
-if(n____>2){
+bigboy a = std::stoull(str);
+#if FALSE
 s = "bash -c \""+std::string(whats_a_ruddy_star_star[0]) +" " +std::to_string(n____-2)+" > "+std::to_string(n____-2)+".txt\"";
  //   std::cout << s <<std::endl;
     system(s.c_str());
+#endif
     std::ifstream t2(std::to_string(n____-2)+".txt");
         std::string str99((std::istreambuf_iterator<char>(t2)),
                  std::istreambuf_iterator<char>());
-a += std::stoi(str99);
+a += std::stoull(str99);
 
 float f = (f_1 + a);
-      std::cout << f/2.0f<<std::endl;} else{std::cout << "1"<<std::endl;}
+  std::cout << (unsigned long long int)(f/2.0f)<<std::endl;} else{std::cout << "1"<<std::endl;}
 return 0;
 }
