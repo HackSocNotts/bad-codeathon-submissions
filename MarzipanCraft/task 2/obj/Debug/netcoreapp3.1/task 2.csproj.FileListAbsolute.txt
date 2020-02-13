@@ -1,0 +1,11 @@
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2.deps.json
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2.runtimeconfig.json
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2.runtimeconfig.dev.json
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2.dll
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/bin/Debug/netcoreapp3.1/task 2.pdb
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/obj/Debug/netcoreapp3.1/task 2.csprojAssemblyReference.cache
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/obj/Debug/netcoreapp3.1/task 2.AssemblyInfoInputs.cache
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/obj/Debug/netcoreapp3.1/task 2.AssemblyInfo.cs
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/obj/Debug/netcoreapp3.1/task 2.dll
+/mnt/c/Users/Omari/Documents/Projects/badcode-MarzipanCraft/task 2/obj/Debug/netcoreapp3.1/task 2.pdb
