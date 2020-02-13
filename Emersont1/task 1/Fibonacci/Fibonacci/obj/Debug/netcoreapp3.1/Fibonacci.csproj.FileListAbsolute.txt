@@ -1,0 +1,11 @@
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.csprojAssemblyReference.cache
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfoInputs.cache
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfo.cs
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.exe
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.deps.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.dev.json
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.dll
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.pdb
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.dll
+C:\Users\Ryan\Desktop\badcode-RyanHardwick-master\task 1\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.pdb
